@@ -1,3 +1,7 @@
+<?php
+include "config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +11,9 @@
     <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="bootstrap-5.3.1/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Club Motor</title>
+    <title>
+        <?php echo $title; ?>
+    </title>
 </head>
 
 <body>
@@ -18,7 +24,9 @@
                     <a href="#"
                         class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
                         <img class="logo" src="img/logo.png" alt="" srcset="">
-                        <span class="fs-5 fw-semibold">Rider Monkey</span>
+                        <span class="fs-5 fw-semibold">
+                            <?php echo $clubName; ?>
+                        </span>
                     </a>
                     <ul class="list-unstyled ps-0">
                         <ul class=" nav  flex-column ">
@@ -92,18 +100,18 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12">
-                                    <h1 class="fw-bold text-center">Club Motor Rider Monkey</h1>
+                                    <h1 class="fw-bold text-center">Club Motor
+                                        <?php echo $clubName; ?>
+                                    </h1>
                                     <hr>
                                 </div>
 
                                 <div class="col-12 mt-3">
-                                    <p class="fw-bold text-center color-acsent">"semangat motor bersatu menjadi satu"
+                                    <p class="fw-bold text-center color-acsent">
+                                        <?php echo $katPengantarS; ?>
                                     </p>
-                                    <p class="isi text-center">Selamat datang di Klub Motor Rider Monkey, tempat di mana
-                                        petualangan, persaudaraan, dan semangat motor bersatu menjadi satu. Kami dengan
-                                        bangga mengundang Anda untuk menjelajahi dunia motor dengan kami, mengalami
-                                        kebebasan yang hanya dapat dirasakan di atas roda besi, dan menjadi bagian dari
-                                        komunitas yang hangat dan mendukung.
+                                    <p class="isi text-center">
+                                        <?php echo $katPengantarC; ?>
                                     </p>
                                 </div>
                             </div>
@@ -122,13 +130,11 @@
                                 </div>
 
                                 <div class="col-12 mt-3">
-                                    <p class="fw-bold text-center color-acsent">"semangat motor bersatu menjadi satu"
+                                    <p class="fw-bold text-center color-acsent">
+                                        <?php echo $aboutS; ?>
                                     </p>
-                                    <p class="isi text-center">Kami, Klub Motor Rider Monkey, tidak hanya sebuah klub
-                                        motor biasa. Kami adalah rumah bagi para penggemar motor yang berbagi semangat
-                                        dan menghargai keindahan petualangan di jalanan. Berdiri sejak tahun 2012, kami
-                                        telah menjadi tempat di mana kebebasan dan persaudaraan tumbuh subur. Kita
-                                        bersama-sama menciptakan jejak petualangan di setiap jalan yang kita tempuh.
+                                    <p class="isi text-center">
+                                        <?php echo $aboutC; ?>
                                     </p>
                                 </div>
                             </div>
@@ -149,28 +155,12 @@
                                 <div class="col-12 mt-3">
                                     <p class="fw-bold text-center color-acsent">"Visi:"
                                     </p>
-                                    <p class="">Menciptakan komunitas pengendara motor yang kuat,
-                                        beragam, dan bersemangat yang merayakan persaudaraan dan kebebasan di atas roda
-                                        besi.
+                                    <p class="">
+                                        <?php echo $visiMisiV; ?>
                                     </p>
                                     <p class="fw-bold text-center color-acsent">"Misi:"
                                     </p>
-                                    <ul>
-                                        <li>
-                                            <p>Menyediakan lingkungan yang hangat dan inklusif bagi semua anggota.</p>
-                                        </li>
-                                        <li>
-                                            <p>Mengadakan acara dan perjalanan yang merayakan keindahan petualangan
-                                                motor.</p>
-                                        </li>
-                                        <li>
-                                            <p>Mendorong pengembangan keterampilan berkendara yang aman dan teknis.</p>
-                                        </li>
-                                        <li>
-                                            <p>Menjadi wadah bagi penggemar motor untuk berbagi pengalaman dan
-                                                pengetahuan.</p>
-                                        </li>
-                                    </ul>
+                                    <?php echo $visiMisiM; ?>
                                 </div>
                             </div>
                         </div>
