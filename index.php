@@ -225,10 +225,6 @@
                                     <hr>
                                 </div>
                                 <div class="col-12 mt-3">
-                                    <p class="fw-bold text-center color-acsent">Pengalaman Club, dan Kelebihan Club
-                                    </p>
-                                    <p class="">Kami telah menorehkan jejak yang mengesankan dalam komunitas motor:
-                                    </p>
                                     <ul>
                                         <li>Inspirasi di Setiap Perjalanan: Dari jalan aspal hingga medan berat, kami
                                             telah menginspirasi pengendara motor untuk menjelajahi dunia dan mengatasi
