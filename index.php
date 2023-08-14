@@ -66,6 +66,9 @@ include "config.php";
                                 <div class="collapse" id="account-collapse">
                                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                         <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Admin</a>
+                                        </li>
+                                        <li><a href="#"
                                                 class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sing
                                                 In</a>
                                         </li>
@@ -182,21 +185,7 @@ include "config.php";
                                     </p>
                                     <p class="">Kami telah menorehkan jejak yang mengesankan dalam komunitas motor:
                                     </p>
-                                    <ul>
-                                        <li>Pengalaman yang Mendalam: Dengan [jumlah] tahun di bawah sabuk, kami telah
-                                            mengorganisir perjalanan petualangan yang tak terlupakan, acara komunitas
-                                            yang meriah, dan pelatihan teknis yang berharga.</li>
-                                    </ul>
-                                    <ul>
-                                        <li>Komunitas yang Berkarakter: Klub Motor Rider Monkey dikenal sebagai
-                                            komunitas yang ramah, mendukung, dan beragam. Setiap anggota adalah bagian
-                                            penting dari keluarga kami.</li>
-                                    </ul>
-                                    <ul>
-                                        <li>Inspirasi di Setiap Perjalanan: Dari jalan aspal hingga medan berat, kami
-                                            telah menginspirasi pengendara motor untuk menjelajahi dunia dan mengatasi
-                                            batasan mereka sendiri.</li>
-                                    </ul>
+                                    <?php echo $profileC; ?>
 
                                 </div>
                             </div>
@@ -215,26 +204,7 @@ include "config.php";
                                     <hr>
                                 </div>
                                 <div class="col-12 mt-3">
-                                    <ul>
-                                        <li>Inspirasi di Setiap Perjalanan: Dari jalan aspal hingga medan berat, kami
-                                            telah menginspirasi pengendara motor untuk menjelajahi dunia dan mengatasi
-                                            batasan mereka sendiri.</li>
-                                    </ul>
-                                    <ul>
-                                        <li>Acara Komunitas: Nikmati pertemuan mingguan, pameran motor, dan acara lain
-                                            yang merayakan budaya motor.</li>
-                                    </ul>
-                                    <ul>
-                                        <li>Pelatihan Berkendara: Tingkatkan keterampilan Anda dengan pelatihan
-                                            berkendara aman dan teknis.</li>
-                                    </ul>
-                                    <ul>
-                                        <li>Diskusi Teknis: Belajar tentang perawatan motor dan teknik berkendara yang
-                                            lebih baik dalam diskusi dengan pengendara berpengalaman.</li>
-                                    </ul>
-                                    <ul>
-                                        <li>Merchandise: Dukung klub dengan merchandise keren berlogo Rider Monkey.</li>
-                                    </ul>
+                                    <?php $produkC; ?>
                                 </div>
                             </div>
                         </div>
@@ -252,9 +222,8 @@ include "config.php";
                                     <hr>
                                 </div>
                                 <div class="col-12 mt-3">
-                                    <p class="">Jangan lewatkan acara-acara menarik kami yang termasuk perjalanan,
-                                        pertemuan komunitas, pameran motor, dan pelatihan teknis. Ikuti kami di media
-                                        sosial untuk mendapatkan pembaruan tentang acara mendatang.
+                                    <p class="">
+                                        <?php echo $eventC; ?>
                                     </p>
                                 </div>
                             </div>
