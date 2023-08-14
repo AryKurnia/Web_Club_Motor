@@ -1,7 +1,7 @@
 <?php
 include "process.php";
-include "../config.php"
-    ?>
+include "../process.php";
+?>
 
 <!DOCTYPE html>
 <html lang="en">

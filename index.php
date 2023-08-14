@@ -1,5 +1,5 @@
 <?php
-include "config.php";
+include "process.php";
 ?>
 
 <!DOCTYPE html>
@@ -65,7 +65,7 @@ include "config.php";
                                 </button>
                                 <div class="collapse" id="account-collapse">
                                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                        <li><a href="#"
+                                        <li><a class="nav-link disabled" href="/Admin/index.php"
                                                 class="link-body-emphasis d-inline-flex text-decoration-none rounded">Admin</a>
                                         </li>
                                         <li><a href="#"

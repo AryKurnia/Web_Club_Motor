@@ -1,14 +1,5 @@
 <?php
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$dbname = "web_motor";
-
-$conn = new mysqli($hostname, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
-}
+include "../config.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Ambil data dari form
